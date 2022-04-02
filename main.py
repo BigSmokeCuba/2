@@ -230,7 +230,7 @@ def onmessage(update,bot:ObigramClient):
         
 
         #AQUI EL USUARIO DE TELEGRAM
-        tl_admin_user = 'ThenKei'
+        tl_admin_user = 'Big Smoke'
 
         jdb = JsonDatabase('database')
         jdb.check_create()
@@ -442,7 +442,7 @@ def onmessage(update,bot:ObigramClient):
         thread.store('msg',message)
 
         if '/start' in msgText:
-            start_msg = 'Bot          : TGMoodleFree v3.0\n'
+            start_msg = 'Bot          : BigSmokeCuba\n'
             start_msg+= 'Desarrollador: @obisoftdev\n'
             start_msg+= 'Api          : https://github.com/Obysoftt/pyobigram\n'
             start_msg+= 'Uso          :Envia Enlaces De Descarga y Archivos Para Procesar (Configure Antes De Empezar , Vea El /tutorial)\n'
